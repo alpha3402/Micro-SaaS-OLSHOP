@@ -1,10 +1,10 @@
-# StockSync 🚀
+# StockSync 
 
 **Sinkronin Stok, Tenangin Hati**
 
 StockSync adalah micro-SaaS multi-platform inventory sync untuk UMKM seller Indonesia yang jualan di Shopee, Tokopedia, TikTok Shop, dan WhatsApp. Satu dashboard, stok auto-sync ke semua platform.
 
-## ✨ Fitur
+#  Fitur
 
 - **Satu Dashboard** — Semua produk dari berbagai marketplace dalam satu tampilan
 - **Auto-Sync** — Update stok sekali, otomatis sync ke semua platform
@@ -12,7 +12,7 @@ StockSync adalah micro-SaaS multi-platform inventory sync untuk UMKM seller Indo
 - **Notifikasi Stok Menipis** — WhatsApp/Telegram alert
 - **Mobile-Friendly** — PWA bisa di-install di HP
 
-## 🏗️ Tech Stack
+# Tech Stack
 
 | Layer | Teknologi |
 |-------|-----------|
@@ -22,7 +22,7 @@ StockSync adalah micro-SaaS multi-platform inventory sync untuk UMKM seller Indo
 | Sync Engine | Celery + Redis |
 | Infra | Cloudflare Tunnel + R2 Backup |
 
-## 📁 Struktur Proyek
+# Struktur Proyek
 
 ```
 StockSync/
@@ -47,9 +47,9 @@ StockSync/
 └── docs/              # Documentation
 ```
 
-## 🚀 Cara Menjalankan
+#  Cara Menjalankan
 
-### Backend
+# Backend
 
 ```bash
 cd backend
@@ -60,7 +60,7 @@ cp .env.example .env  # edit sesuai konfigurasi
 uvicorn app.main:app --reload --port 8000
 ```
 
-### Frontend
+# Frontend
 
 ```bash
 cd frontend
@@ -68,7 +68,7 @@ npm install
 npm run dev
 ```
 
-## 📄 API Endpoints
+#  API Endpoints
 
 - `GET /api/sync/health` — Health check
 - `POST /api/auth/register` — Daftar akun
