@@ -78,14 +78,4 @@ npm run dev
 - `POST /api/sync/trigger` — Trigger sync manual
 - `GET /api/sync/logs` — Lihat log sync
 
-## 💰 Harga
 
-| Plan | Harga | Fitur |
-|------|-------|-------|
-| Gratis | Rp 0 | 1 platform, 10 produk |
-| Starter ⭐ | Rp 49rb/bln | 2 platform, 50 produk, auto-sync |
-| Pro | Rp 99rb/bln | 3+ platform, unlimited, WA notif |
-
----
-
-Made with ❤️ for UMKM Indonesia
